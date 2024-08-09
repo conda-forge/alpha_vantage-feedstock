@@ -1,5 +1,5 @@
 {% set name = "alpha_vantage" %}
-{% set version = "2.3.1" %}
+{% set version = "3.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0ce76908c3e2a22f9bbdacead90195ec3a4fa41ef8ae7c69a4a2fc99459bfbec
+  sha256: f97fe2b8efad2da97580199d54f8556c8007053870c462d10b9eaa815186c484
 
 build:
   number: 0
